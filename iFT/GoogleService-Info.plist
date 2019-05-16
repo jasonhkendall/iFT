@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>60011289637-ab1jed5kuia8s9ngp8ooa276p2r5isvn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.60011289637-ab1jed5kuia8s9ngp8ooa276p2r5isvn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDKwvuAVJDGBO9CdrKydjqG2HVpyzzTjms</string>
+	<key>GCM_SENDER_ID</key>
+	<string>60011289637</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>none.iFT</string>
+	<key>PROJECT_ID</key>
+	<string>ifittrack</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ifittrack.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:60011289637:ios:028c2541c00d8dfd</string>
+	<key>DATABASE_URL</key>
+	<string>https://ifittrack.firebaseio.com</string>
+</dict>
+</plist>

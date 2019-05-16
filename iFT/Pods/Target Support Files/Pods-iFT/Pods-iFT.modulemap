@@ -1,0 +1,6 @@
+framework module Pods_iFT {
+  umbrella header "Pods-iFT-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'iFT' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+# Pods for iFT
+	
+pod 'Firebase/Auth'
+pod 'Firebase/Core'
+pod 'FirebaseUI/Storage'
+pod 'FirebaseUI/Database'
+pod 'FirebaseUI/Auth'
+pod 'FirebaseUI/Email'	
+
+
+
+end
