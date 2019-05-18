@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="iSR-lU-VmS">
-                                <rect key="frame" x="93.5" y="461.5" width="227" height="51.5"/>
+                                <rect key="frame" x="93.5" y="462" width="227" height="51.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iFit-Track User Authentication" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KE4-qf-U87">
                                         <rect key="frame" x="0.0" y="0.0" width="227" height="20.5"/>
@@ -45,7 +45,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iFit-Track" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrD-8z-sTS">
-                                <rect key="frame" x="0.0" y="353" width="414" height="34"/>
+                                <rect key="frame" x="0.0" y="412" width="414" height="34"/>
                                 <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.065202268835616445" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
                                 <color key="textColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -55,30 +55,45 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="iSR-lU-VmS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="93.5" id="361-to-DGq"/>
-                            <constraint firstItem="rrD-8z-sTS" firstAttribute="top" secondItem="cVO-2l-sT0" secondAttribute="bottom" constant="-62" id="GFO-5t-wzA"/>
+                            <constraint firstItem="iSR-lU-VmS" firstAttribute="top" secondItem="rrD-8z-sTS" secondAttribute="bottom" constant="16" id="4bh-wc-ipP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iSR-lU-VmS" secondAttribute="trailing" constant="93.5" id="Lzy-CL-NGT"/>
                             <constraint firstItem="cVO-2l-sT0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XCa-GO-dxD"/>
                             <constraint firstItem="cVO-2l-sT0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aUY-56-scO"/>
                             <constraint firstItem="cVO-2l-sT0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aWW-Ol-mDJ"/>
                             <constraint firstItem="rrD-8z-sTS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cBL-VL-F1H"/>
+                            <constraint firstItem="rrD-8z-sTS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="324" id="dDh-KY-t8F"/>
                             <constraint firstItem="rrD-8z-sTS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jhF-dv-0Ae"/>
-                            <constraint firstItem="iSR-lU-VmS" firstAttribute="top" secondItem="rrD-8z-sTS" secondAttribute="bottom" constant="74.5" id="nMe-v5-T8H"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="voA-W8-SL5"/>
                     <connections>
-                        <segue destination="2jU-Vc-3Yb" kind="show" identifier="goHome" id="QsW-ft-Q7a"/>
+                        <segue destination="2jU-Vc-3Yb" kind="show" id="FwU-RO-m9a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="112.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
+        <scene sceneID="Enk-xo-4zx">
+            <objects>
+                <viewController storyboardIdentifier="signInID" id="PkD-iW-79Z" customClass="SignInViewController" customModule="iFT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UmN-4g-07g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8Ve-s2-D7I"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z2l-94-udu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="512" y="578"/>
+        </scene>
+        <!--Sign Out View Controller-->
         <scene sceneID="xhH-th-alb">
             <objects>
-                <viewController id="2jU-Vc-3Yb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="authControllerVerificationID" id="2jU-Vc-3Yb" customClass="SignOutViewController" customModule="iFT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eDx-GM-c74">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,27 +104,6 @@
                                 <color key="textColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="izs-Ve-2o5">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </textAttributes>
-                                <textAttributes key="largeTitleTextAttributes">
-                                    <color key="textColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="iFit-Track" id="Bz3-EE-Ba4">
-                                        <barButtonItem key="leftBarButtonItem" title="&lt;" style="plain" id="AA0-5D-GCj">
-                                            <color key="tintColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <connections>
-                                                <segue destination="q9k-Qp-ezB" kind="show" id="OLM-e8-U2n"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -121,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BLj-0d-lPt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2210.144927536232" y="112.5"/>
+            <point key="canvasLocation" x="1919" y="113"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="h1n-7Q-RnZ">
