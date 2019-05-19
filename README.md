@@ -11,11 +11,11 @@ iFT will integrate with a database, provide user authentication, and effeciently
 
 ![iFT Icon - Rough Design](https://github.com/jasonhkendall/iFT/blob/master/Screen%20Shot%202019-05-14%20at%201.54.04%20PM.png)
 
-## Initial build
+## Initial build - Week One
 
 ![iFT Initial build](https://github.com/jasonhkendall/iFT/blob/firstSave/ScreenShots/Screen%20Shot%202019-05-19%20at%202.59.08%20PM.png)
 
-## Second build
+## Second build - Week Two
 
 ![iFT Second build](https://github.com/jasonhkendall/iFT/blob/firstSave/ScreenShots/Screen%20Shot%202019-05-19%20at%203.00.31%20PM.png)
 
