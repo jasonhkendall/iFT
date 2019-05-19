@@ -13,4 +13,4 @@ iFT will integrate with a database, provide user authentication, and effeciently
 
 ## Initial build
 
-![iFT Initial build](https://github.com/jasonhkendall/iFT/blob/firstSave/ScreenShots/Screen%20Shot%202019-05-19%20at%202.59.08%20PM.png
+![iFT Initial build](https://github.com/jasonhkendall/iFT/blob/firstSave/ScreenShots/Screen%20Shot%202019-05-19%20at%202.59.08%20PM.png)
