@@ -1,5 +1,5 @@
 # iFT
-## The i Fit-Track Application... 
+## The i Fit-Track Application... (Please see branch for update) 
 Is a capstone project designed to accurately and effeciently keep track of and display a user's frequency and duration of gym visits.
 
 This will be done to provide the user with a safe and secure means of collecting and analyzing health related data.
