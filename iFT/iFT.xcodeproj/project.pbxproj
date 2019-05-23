@@ -17,6 +17,7 @@
 		417074C0228DB4480095C410 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 417074BF228DB4480095C410 /* GoogleService-Info.plist */; };
 		418A15E0229065B5002EA2DE /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A15DF229065B5002EA2DE /* SignOutViewController.swift */; };
 		418A15E2229065D9002EA2DE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A15E1229065D9002EA2DE /* SignInViewController.swift */; };
+		41B2F79822964EF3002F3397 /* AppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2F79722964EF3002F3397 /* AppearanceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		417074BF228DB4480095C410 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		418A15DF229065B5002EA2DE /* SignOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
 		418A15E1229065D9002EA2DE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		41B2F79722964EF3002F3397 /* AppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceManager.swift; sourceTree = "<group>"; };
 		84282894709AAD21B6484EF8 /* Pods_iFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 		4146F0F3228B3B4A00671E50 /* iFT */ = {
 			isa = PBXGroup;
 			children = (
+				41B2F79722964EF3002F3397 /* AppearanceManager.swift */,
 				4146F0F4228B3B4A00671E50 /* AppDelegate.swift */,
 				4146F0F6228B3B4A00671E50 /* ViewController.swift */,
 				418A15DF229065B5002EA2DE /* SignOutViewController.swift */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4146F0FD228B3B4A00671E50 /* iFT.xcdatamodeld in Sources */,
+				41B2F79822964EF3002F3397 /* AppearanceManager.swift in Sources */,
 				4146F0F7228B3B4A00671E50 /* ViewController.swift in Sources */,
 				418A15E0229065B5002EA2DE /* SignOutViewController.swift in Sources */,
 				418A15E2229065D9002EA2DE /* SignInViewController.swift in Sources */,
