@@ -21,7 +21,7 @@ class SignOutViewController: UIViewController {
         // Firebase logout API
         try! Auth.auth().signOut()
         
-        // **Need code to pop view controllers off the current stack**
+        // **Need code to pop view controllers off the current stack - find code for this problem**
         
         let ViewController : UIViewController = self.storyboard!.instantiateViewController(withIdentifier: "MainID") as UIViewController
         UIApplication.shared.keyWindow?.rootViewController = ViewController
