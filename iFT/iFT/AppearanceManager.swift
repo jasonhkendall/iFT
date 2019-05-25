@@ -8,16 +8,23 @@
 
 import Foundation
 import UIKit
+import FirebaseUI
+import GoogleMaps
+import GooglePlaces
 
-//class AppearanceManager {
-//    class func setupAppeearance() {
-//      let navBarAppearance = UINavigationBar.appearance()
-//        navBarAppearance.titleTextAttributes =
-//            [NSAttributedString.Key.font: UIFont(name: "Avenir Next", size: 28)!, NSAttributedString.Key.foregroundColor: UIColor.yellow]
-//        
+
+// Working with appearance proxy
+
+class AppearanceManager {
+    class func setupAppeearance() {
+        // Applied global appearance for the navigation bar
+      let navBarAppearance = UINavigationBar.appearance()
+        navBarAppearance.titleTextAttributes =
+            [NSAttributedString.Key.font: UIFont(name: "Avenir Next", size: 30)!, NSAttributedString.Key.foregroundColor: UIColor.orange]
+        
 //        let navbarCompactAppearance = UINavigationBar.appearance(for: UITraitCollection.init(verticalSizeClass: .compact))
 //        navbarCompactAppearance.titleTextAttributes =
 //            [NSAttributedString.Key.font: UIFont(name: "Avenir Next", size: 20)!,
 //             NSAttributedString.Key.foregroundColor: UIColor.orange]
-//    }
-//}
+    }
+}

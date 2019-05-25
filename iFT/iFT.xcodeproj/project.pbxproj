@@ -14,10 +14,12 @@
 		4146F0FD228B3B4A00671E50 /* iFT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4146F0FB228B3B4A00671E50 /* iFT.xcdatamodeld */; };
 		4146F0FF228B3B4C00671E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4146F0FE228B3B4C00671E50 /* Assets.xcassets */; };
 		4146F102228B3B4C00671E50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4146F100228B3B4C00671E50 /* LaunchScreen.storyboard */; };
+		416FBBA62298A2B400DFCA21 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416FBBA52298A2B400DFCA21 /* MapsViewController.swift */; };
 		417074C0228DB4480095C410 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 417074BF228DB4480095C410 /* GoogleService-Info.plist */; };
 		418A15E0229065B5002EA2DE /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A15DF229065B5002EA2DE /* SignOutViewController.swift */; };
 		418A15E2229065D9002EA2DE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418A15E1229065D9002EA2DE /* SignInViewController.swift */; };
 		41B2F79822964EF3002F3397 /* AppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B2F79722964EF3002F3397 /* AppearanceManager.swift */; };
+		41ED97AB2299074C0034CD77 /* UserHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ED97AA2299074C0034CD77 /* UserHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +33,12 @@
 		4146F0FE228B3B4C00671E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4146F101228B3B4C00671E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4146F103228B3B4C00671E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416FBBA52298A2B400DFCA21 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		417074BF228DB4480095C410 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		418A15DF229065B5002EA2DE /* SignOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
 		418A15E1229065D9002EA2DE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		41B2F79722964EF3002F3397 /* AppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceManager.swift; sourceTree = "<group>"; };
+		41ED97AA2299074C0034CD77 /* UserHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeViewController.swift; sourceTree = "<group>"; };
 		84282894709AAD21B6484EF8 /* Pods_iFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +88,8 @@
 				4146F0F4228B3B4A00671E50 /* AppDelegate.swift */,
 				4146F0F6228B3B4A00671E50 /* ViewController.swift */,
 				418A15DF229065B5002EA2DE /* SignOutViewController.swift */,
+				41ED97AA2299074C0034CD77 /* UserHomeViewController.swift */,
+				416FBBA52298A2B400DFCA21 /* MapsViewController.swift */,
 				418A15E1229065D9002EA2DE /* SignInViewController.swift */,
 				4146F0F8228B3B4A00671E50 /* Main.storyboard */,
 				4146F0FE228B3B4C00671E50 /* Assets.xcassets */,
@@ -239,9 +245,11 @@
 			files = (
 				4146F0FD228B3B4A00671E50 /* iFT.xcdatamodeld in Sources */,
 				41B2F79822964EF3002F3397 /* AppearanceManager.swift in Sources */,
+				416FBBA62298A2B400DFCA21 /* MapsViewController.swift in Sources */,
 				4146F0F7228B3B4A00671E50 /* ViewController.swift in Sources */,
 				418A15E0229065B5002EA2DE /* SignOutViewController.swift in Sources */,
 				418A15E2229065D9002EA2DE /* SignInViewController.swift in Sources */,
+				41ED97AB2299074C0034CD77 /* UserHomeViewController.swift in Sources */,
 				4146F0F5228B3B4A00671E50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

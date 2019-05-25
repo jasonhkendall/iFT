@@ -7,7 +7,9 @@
 //
 
 import UIKit
-import FirebaseAuth
+import FirebaseUI
+import GoogleMaps
+import GooglePlaces
 
 class SignInViewController: UIViewController {
     
@@ -21,6 +23,7 @@ class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        AppearanceManager.setupAppeearance()
 
 
         // Do any additional setup after loading the view.

@@ -6,9 +6,16 @@
 //  Copyright © 2019 JHK. All rights reserved.
 //
 
+//import UIKit
+//import FirebaseAuth
+//import GoogleMaps
+//import GooglePlaces
+
 import UIKit
+import GoogleMaps
+import GooglePlaces
 import FirebaseUI
-import Firebase
+
 
 
 // Stage one - Complete sign-in and sign-out / User authentication process
@@ -16,8 +23,10 @@ import Firebase
 
 class ViewController: UIViewController {
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        AppearanceManager.setupAppeearance()
         
         // Do any additional setup after loading the view.
     }
