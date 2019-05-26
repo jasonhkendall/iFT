@@ -22,14 +22,14 @@ class SignOutViewController: UIViewController {
     
     
     
-    //@IBAction func goToMapsVC(_ sender: UIButton) {
+    @IBAction func goToMapsVC(_ sender: UIButton) {
     
-    // let controller = self.storyboard?.instantiateViewController(withIdentifier: "MapsViewController")
-    //    self.navigationController?.pushViewController(controller!, animated: true)
+     let controller = self.storyboard?.instantiateViewController(withIdentifier: "MapsViewController")
+        self.navigationController?.pushViewController(controller!, animated: true)
         
       //  let controller = self.storyboard!.instantiateViewController(withIdentifier: "MapsViewController") as! ViewController
      //   self.navigationController!.pushViewController(controller, animated: true)
-   // }
+    }
         
     
     @IBAction func actionSignOut(_ sender: Any) {
