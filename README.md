@@ -8,4 +8,4 @@ The application will integrate with a database, provide user authentication, and
 
 
 
-![iFT Icon - Rough Design](https://github.com/jasonhkendall/iFT/blob/master/Screen%20Shot%202019-05-14%20at%201.54.04%20PM.png)
+![iFT Icon - Rough Design](https://github.com/jasonhkendall/iFT/blob/week4/Resources/Screen%20Shot%202019-05-27%20at%2012.00.32%20AM.png)
