@@ -210,6 +210,7 @@
                                 </state>
                                 <connections>
                                     <action selector="goToMapsVC:" destination="2jU-Vc-3Yb" eventType="touchUpInside" id="Mcg-Pg-v1W"/>
+                                    <segue destination="Drb-tA-vAM" kind="show" id="HJU-Zh-v0g"/>
                                 </connections>
                             </button>
                         </subviews>

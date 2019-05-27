@@ -25,21 +25,25 @@ class MapsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "User Location Preferences"
-        let camera = GMSCameraPosition.camera(withLatitude: 37.36, longitude: -122.0, zoom: 6.0)
-        mapView.camera = camera
         
-        
-        
-        
-        // Creates a marker in the center of the map.
         func showMarker(position: CLLocationCoordinate2D){
             let marker = GMSMarker()
             marker.position = position
             marker.title = "Palo Alto"
             marker.snippet = "San Francisco"
-            marker.map = mapView
+//            marker.map = mapView
         }
+        
+        navigationItem.title = "User Location Preferences"
+        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 6.0)
+        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        view = mapView
+        
+        
+        
+        
+        // Creates a marker in the center of the map.
+       
        // showMarker(position: CLLocationCoordinate2D)
             
             
