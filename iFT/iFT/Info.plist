@@ -16,6 +16,14 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ask for location privacy</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>ask for location privacy</string>
+	<key>NSLocationUsageDescription</key>
+	<string>location privacy</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>ask for location privacy</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
