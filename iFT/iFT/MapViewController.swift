@@ -1,5 +1,5 @@
 //
-//  MapsViewController.swift
+//  MapViewController.swift
 //  iFT
 //
 //  Created by Jason Howard Kendall on 5/24/19.
@@ -43,6 +43,16 @@ class MapViewController: UIViewController {
         
         listLikelyPlaces()
     }
+    
+    
+    // showMarker(position: CLLocationCoordinate2D)
+    //
+    //
+    ////        let marker = GMSMarker()
+    ////        marker.position = CLLocationCoordinate2D(latitude: -33.86, longitude: 151.20)
+    ////        marker.title = "Sydney"
+    ////        marker.snippet = "Australia"
+    ////        marker.map = mapView
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -154,50 +164,6 @@ extension MapViewController: CLLocationManagerDelegate {
         print("Error: \(error)")
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

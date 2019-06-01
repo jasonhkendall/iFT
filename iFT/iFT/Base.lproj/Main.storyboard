@@ -83,7 +83,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="userLoginPage" translatesAutoresizingMaskIntoConstraints="NO" id="JDm-3w-D2H">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userLoginPage" translatesAutoresizingMaskIntoConstraints="NO" id="JDm-3w-D2H">
                                 <rect key="frame" x="0.0" y="1" width="414" height="901"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="748" verticalCompressionResistancePriority="748" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mU6-4w-FK7">
@@ -122,8 +122,8 @@
                             <constraint firstItem="mU6-4w-FK7" firstAttribute="leading" secondItem="8Ve-s2-D7I" secondAttribute="leading" constant="100" id="4LM-um-e9r"/>
                             <constraint firstItem="mU6-4w-FK7" firstAttribute="trailing" secondItem="hnT-Yp-eEd" secondAttribute="trailing" id="7n4-Tf-Qje"/>
                             <constraint firstItem="JDm-3w-D2H" firstAttribute="leading" secondItem="UmN-4g-07g" secondAttribute="leading" id="8YT-tK-Kvo"/>
-                            <constraint firstAttribute="bottom" secondItem="JDm-3w-D2H" secondAttribute="bottom" id="B6f-pb-hOJ"/>
-                            <constraint firstItem="JDm-3w-D2H" firstAttribute="top" secondItem="UmN-4g-07g" secondAttribute="top" id="FQ5-Ml-21c"/>
+                            <constraint firstAttribute="bottom" secondItem="JDm-3w-D2H" secondAttribute="bottom" constant="-6" id="B6f-pb-hOJ"/>
+                            <constraint firstItem="JDm-3w-D2H" firstAttribute="top" secondItem="UmN-4g-07g" secondAttribute="top" constant="1" id="FQ5-Ml-21c"/>
                             <constraint firstItem="VBL-Lu-n2t" firstAttribute="leading" secondItem="8Ve-s2-D7I" secondAttribute="leading" constant="153" id="IcU-48-qgA"/>
                             <constraint firstItem="VBL-Lu-n2t" firstAttribute="top" secondItem="hnT-Yp-eEd" secondAttribute="bottom" constant="12" id="TPf-R1-iq5"/>
                             <constraint firstItem="hnT-Yp-eEd" firstAttribute="top" secondItem="mU6-4w-FK7" secondAttribute="bottom" constant="14" id="iKU-ft-n0a"/>
@@ -232,7 +232,7 @@
         <!--Current Place on a Map-->
         <scene sceneID="txZ-9Z-cqy">
             <objects>
-                <viewController id="g06-yA-ngO" customClass="MapViewController" customModule="current_place_on_map" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g06-yA-ngO" customClass="MapViewController" customModule="iFT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="66o-hQ-R3y"/>
                         <viewControllerLayoutGuide type="bottom" id="SVL-hX-B8M"/>
@@ -258,7 +258,7 @@
         <!--Places View Controller-->
         <scene sceneID="RTR-eI-rGq">
             <objects>
-                <viewController id="k9e-yX-gTd" customClass="PlacesViewController" customModule="current_place_on_map" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="k9e-yX-gTd" customClass="PlacesViewController" customModule="iFT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PaK-YE-nlW"/>
                         <viewControllerLayoutGuide type="bottom" id="q16-OW-suz"/>
