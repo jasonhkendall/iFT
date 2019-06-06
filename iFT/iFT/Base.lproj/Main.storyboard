@@ -143,6 +143,36 @@
             </objects>
             <point key="canvasLocation" x="2439.130434782609" y="476.78571428571428"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="JYk-Sv-zYZ">
+            <objects>
+                <viewController id="r8L-SZ-4kB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NdV-Xs-41N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uRq-Pw-xT3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAl-s2-sg9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3403" y="477"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yiL-bR-wbt">
+            <objects>
+                <viewController id="mBF-Uj-vfq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZAg-3f-eTm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="iwQ-iO-anA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iTf-Qv-gXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4321" y="483"/>
+        </scene>
         <!--Sign Out View Controller-->
         <scene sceneID="xhH-th-alb">
             <objects>
@@ -276,32 +306,53 @@
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7rh-Wm-ug9">
-                                <rect key="frame" x="0.0" y="132" width="414" height="730"/>
+                                <rect key="frame" x="0.0" y="180" width="414" height="742"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search places" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PsU-4o-Iy0">
+                                <rect key="frame" x="0.0" y="132" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="V9b-Tp-0RY"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                <connections>
+                                    <outlet property="delegate" destination="k9e-yX-gTd" id="kJ0-CY-Yzm"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="7rh-Wm-ug9" firstAttribute="bottom" secondItem="q16-OW-suz" secondAttribute="top" id="5DT-bS-65Z"/>
+                            <constraint firstItem="7rh-Wm-ug9" firstAttribute="top" secondItem="PsU-4o-Iy0" secondAttribute="bottom" constant="-2" id="0KT-1h-Dfq"/>
+                            <constraint firstItem="7rh-Wm-ug9" firstAttribute="bottom" secondItem="q16-OW-suz" secondAttribute="top" constant="60" id="5DT-bS-65Z"/>
                             <constraint firstAttribute="trailing" secondItem="V9k-dL-BIf" secondAttribute="trailing" id="A4r-3m-FCI"/>
                             <constraint firstItem="V9k-dL-BIf" firstAttribute="leading" secondItem="IhT-Tl-v87" secondAttribute="leading" id="Brz-q6-xvy"/>
+                            <constraint firstItem="PsU-4o-Iy0" firstAttribute="leading" secondItem="V9k-dL-BIf" secondAttribute="leading" id="Eo2-ch-qL9"/>
+                            <constraint firstItem="7rh-Wm-ug9" firstAttribute="top" secondItem="V9k-dL-BIf" secondAttribute="bottom" constant="48" id="FTp-Es-RqY"/>
                             <constraint firstItem="V9k-dL-BIf" firstAttribute="top" secondItem="PF7-Vp-4Yz" secondAttribute="top" id="H1g-3s-BwS"/>
+                            <constraint firstItem="q16-OW-suz" firstAttribute="top" secondItem="7rh-Wm-ug9" secondAttribute="bottom" constant="-60" id="KWB-VS-wqA"/>
+                            <constraint firstItem="7rh-Wm-ug9" firstAttribute="trailing" secondItem="PF7-Vp-4Yz" secondAttribute="trailing" id="MOU-PM-ZB2"/>
+                            <constraint firstItem="7rh-Wm-ug9" firstAttribute="top" secondItem="PsU-4o-Iy0" secondAttribute="bottom" constant="-2" id="OrF-GJ-svl"/>
+                            <constraint firstItem="7rh-Wm-ug9" firstAttribute="leading" secondItem="PF7-Vp-4Yz" secondAttribute="leading" id="RRe-9t-M5x"/>
                             <constraint firstItem="V9k-dL-BIf" firstAttribute="leading" secondItem="7rh-Wm-ug9" secondAttribute="leading" id="Upv-Zv-qE8"/>
-                            <constraint firstItem="V9k-dL-BIf" firstAttribute="bottom" secondItem="7rh-Wm-ug9" secondAttribute="top" id="WfA-cd-heQ"/>
+                            <constraint firstItem="7rh-Wm-ug9" firstAttribute="top" secondItem="PsU-4o-Iy0" secondAttribute="bottom" constant="-2" id="X6e-D5-T0s"/>
+                            <constraint firstItem="PsU-4o-Iy0" firstAttribute="trailing" secondItem="V9k-dL-BIf" secondAttribute="trailing" id="euG-uX-sdU"/>
                             <constraint firstItem="V9k-dL-BIf" firstAttribute="trailing" secondItem="7rh-Wm-ug9" secondAttribute="trailing" id="g5T-5i-drh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PF7-Vp-4Yz"/>
                     </view>
                     <connections>
                         <outlet property="tableView" destination="7rh-Wm-ug9" id="yZV-rj-RmP"/>
+                        <outlet property="textFieldSearchPlaces" destination="PsU-4o-Iy0" id="up8-PN-Ezr"/>
                         <segue destination="2V9-hC-hju" kind="unwind" identifier="unwindToMain" unwindAction="unwindToMainWithSegue:" id="ldB-17-J9y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TEd-c3-mHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="2V9-hC-hju" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4275" y="-216"/>
+            <point key="canvasLocation" x="4273.913043478261" y="-216.29464285714286"/>
         </scene>
     </scenes>
     <resources>

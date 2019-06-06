@@ -1,0 +1,4 @@
+/Users/JasonKendall/Library/Developer/Xcode/DerivedData/iFT-djirsmadfwinlfcvoeutbradotxm/Build/Products/Debug-iphonesimulator/FirebaseUI/FirebaseAuthUI.bundle
+/Users/JasonKendall/Library/Developer/Xcode/DerivedData/iFT-djirsmadfwinlfcvoeutbradotxm/Build/Products/Debug-iphonesimulator/FirebaseUI/FirebaseEmailAuthUI.bundle
+/Users/JasonKendall/Library/CloudStorage/iCloud Drive/Desktop/Developer/iFT/iFT/iFT/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle
+/Users/JasonKendall/Library/CloudStorage/iCloud Drive/Desktop/Developer/iFT/iFT/iFT/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle
