@@ -7,7 +7,9 @@
 //
 
 import UIKit
-import GooglePlaces
+import GoogleMaps
+import GooglePlacees
+
 
 class PlacesViewController: UIViewController, UITextFieldDelegate, GMSAutocompleteFetcherDelegate {
   @IBOutlet weak var textFieldSearchPlaces: UITextField!
